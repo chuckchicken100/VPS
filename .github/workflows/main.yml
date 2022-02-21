@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       authcode:
-        description: 'V_P_S'
+        description: 'Nhập code'
         required: true
       pincode:
-        description: '000000'
+        description: 'Nhập mã pin tuỳ ý (6 số)'
         required: true
   
 jobs:
